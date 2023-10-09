@@ -4,8 +4,8 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Bienvenido">
-	<main>
 		<h1><span class="text-gradient">Jlparnisari</span></h1>
+	<main class=" border-4">
 		<p class="instructions">
 			WEBS QUE A HECHO
 		</p>
@@ -33,7 +33,7 @@ import Card from '../components/Card.astro';
 <style>
 	main {
 		margin: auto;
-		padding: 1rem;
+		padding: 2.5rem;
 		width: 800px;
 		max-width: calc(100% - 2rem);
 		color: white;
@@ -57,13 +57,13 @@ import Card from '../components/Card.astro';
 		margin-bottom: 0.5em;
 	}
 	.text-gradient {
-		background: linear-gradient(#ffffff, #eaeaea, #a9a9a9, #888888, #666666, #424242, #212121);
+		background: linear-gradient(#ffffff, #eaeaea, #d3d3d3, #a7a7a7, #8c8c8c, #424242, #212121);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-position: 0%;
 	}
 	.instructions {
-		font-size: 45px;
+		font-size: 30px;
 		font-weight: bold;
 		text-align: center;
 	}
